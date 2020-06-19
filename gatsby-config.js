@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Aaron Albrecht",
-    description: "Aaron Albrecht Blog",
+    description: "Aaron Albrecht Articles",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
