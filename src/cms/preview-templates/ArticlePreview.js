@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { AricleTemplate } from "../../templates/article";
+import { ArticleTemplate } from "../../templates/article";
 
-const AriclePreview = ({ entry, widgetFor }) => {
+const ArticlePreview = ({ entry, widgetFor }) => {
   const tags = entry.getIn(["data", "tags"]);
   return (
-    <AricleTemplate
+    <ArticleTemplate
       content={widgetFor("body")}
       description={entry.getIn(["data", "description"])}
       tags={tags && tags.toJS()}
@@ -14,11 +14,11 @@ const AriclePreview = ({ entry, widgetFor }) => {
   );
 };
 
-AriclePreview.propTypes = {
+ArticlePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 };
 
-export default AriclePreview;
+export default ArticlePreview;
