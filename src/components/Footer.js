@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 
+import youtube from "../img/social/youtube.svg";
+
 const Footer = class extends React.Component {
   render() {
     return (
@@ -51,37 +53,19 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              {/* <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
+              <div className="column is-4 ">
+                <a
+                  title="youtube"
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UCZHTa4-KxGPHeA0NWsEbINw"
+                >
                   <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
+                    src={youtube}
+                    alt="YouTube"
+                    style={{ width: "3em", height: "3em" }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
