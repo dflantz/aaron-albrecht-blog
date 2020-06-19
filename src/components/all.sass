@@ -126,13 +126,13 @@ $menu-label-color: $white-ter
   vertical-align: middle
   display: inline
 
-// blog roll
-.blog-list-item.is-featured
+// article roll
+.article-list-item.is-featured
   background-color: $primary-background
-.blog-list-item header
+.article-list-item header
   display: flex
   margin-bottom: 1em
-.blog-list-item .featured-thumbnail
+.article-list-item .featured-thumbnail
   flex-basis: 35%
   margin: 0 1.5em 0 0
 
@@ -140,13 +140,13 @@ $menu-label-color: $white-ter
 
 // responsiveness
 +tablet-only
-  .blog-list-item .featured-thumbnail
+  .article-list-item .featured-thumbnail
     flex-basis: 50%
 
 +mobile
-  .blog-list-item header
+  .article-list-item header
     display: block
-  .blog-list-item .featured-thumbnail
+  .article-list-item .featured-thumbnail
     text-align: center
     max-width: 70%
     margin: 0 0 1em
