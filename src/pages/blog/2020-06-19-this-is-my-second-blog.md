@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: This is my first blog
-date: 2016-12-17T15:04:10.000Z
+title: This is my Third blog
+date: 2020-06-19T20:48:51.930Z
 description: The Coffee Taster’s Flavor Wheel, the official resource used by
   coffee tasters, has been revised for the first time this year.
 featuredpost: false
